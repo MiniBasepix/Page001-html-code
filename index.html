@@ -47,146 +47,101 @@ pre {
 </style>
 </head>
 <body>
-    <h1>Page001 - &lt;File&gt;style.css</h1>
+    <h1>Page001 - &lt;File&gt;style.css</h1><br>
+    <p>※コメントは削除しています。</p>
     <pre>
-        body {
-            margin: 0px;
-            padding: 0px;
-            width: 100%;
-            height:100%;
-            text-align: start;
-          }
-        
-          /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-        .pc { 
-            display: block !important; 
-        }
-        .phone {
-            display: none !important;
-        }
-         
-        /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-        @media only screen and (max-width: 1440px) {
-            .pc { 
-                display: none !important; 
-            }
-            .phone { 
-                display: block !important; 
-            }
-        }
-        
-        header {
-            background-color: lightsteelblue;
-            color: rgb(80, 80, 80);
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-left: 8px;
-            font-family: 'Klee One';
-            position: fixed;
-            width:100%;
-            top: 0px;
-            font-weight: 700;
-            font-size: 25px;
-            position: fixed;
-        }
-        
-        body p {
-            background-color: skyblue;
-            color: lightcyan;
-            font-size: 25px;
-            margin-top: 30px;
-            font-family: 'Yomogi';
-            font-weight: 400;
-        }
-        
-        .pc p {
-            font-size: 35px;
-            font-weight: 500;
-        }
-        
-        .pc img {
-            width: 50%;
-        }
-        
-        footer {
-            background-color: gray;
-            text-align: center;
-            padding-top: 30px;
-            padding-bottom: 20px;
-            position: absolute;
-            width: 100%;
-            font-size: 15px;
-            color: white;
-        }
-        
-        footer h5 {
-            font-size: 10px;
-            font-family: sans-serif;
-        }
-        
-        .phone footer h4 {
-            font-size: 10px;
-            font-family: sans-serif;
-            color: white;
-            background: gray;
-            margin: 0;
-        }
-        
-        .pc footer h4 {
-            font-family: sans-serif;
-            color: white;
-            background: gray;
-            margin: 0;
-        }
-        
-        a {
-         color: white;
-        }
-        
-        header a {
-            color: gray;
-            text-decoration: none;
-        }
-        
-        .font-style1 {
-            font-family: 'Georama';
-        }
-        
-        #loading {
-            width: 100vw;
-            height: 100vh;
-            transition: all 1s;
-            background-color: white;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 9999;
-          }
-        
-          .loaded {
-            opacity: 0;
-            visibility: hidden;
-          }
-        
-        .center {
-            text-align: center;
-            padding-top: 330px;
-        }
-        
-        #center {
-            text-align: center;
-        }
-        
-        a h6 {
-            color: bark-gray;
-        }
-        
-        h1 #p001 {
-            font-size: 50px;
-            font-family: sans-selif;
-            bottom: 5px;
-            padding-top: 0px;
-        }
+         &lt;!DOCTYPE html&gt;
+    &lt;html lang="ja"&gt;
+    &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title>Page001 - index.html&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+    &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet"&gt;
+    &lt;script src="jQuery.js"&gt;&lt;/script&gt;
+    &lt;link rel="icon" href="iconpage001.ico"&gt;
+    &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet"&gt;
+    &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,300&display=swap" rel="stylesheet"&gt;
+    &lt;div id="loading"&gt;
+    &lt;div class="center"&gt;&lt;h1 class="font-style1">independent research&lt;/div&gt;
+    &lt;div id="center"&gt;HTML・CSS・JavaScriptを読み込んでいます。&lt;br&gt;しばらくお待ちください&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/head&gt;
+    &lt;body>
+    &lt;header id="header">
+    &lt;a href="https://MiniBasepix.github.io/Page001">自由研究　2021&lt;/a>
+    &lt;/header>&lt;br>&lt;br>
+    &lt;div class="phone">
+    &lt;p id="chapter1">タイトル&lt;/p>
+    &lt;img src="1.jpg" alt="タイトル" width="400">
+    &lt;p>きっかけ・調べたいこと&lt;/p>
+    &lt;img src="2.jpg" alt="きっかけ・調べたいこと" width="400">
+    &lt;p>用意するもの・予想&lt;/p>
+    &lt;img src="3.jpg" alt="用意するもの・予想" width="400">
+    &lt;p>実験方法&lt;/p>
+    &lt;img src="4.jpg" alt="実験方法" width="400">
+    &lt;p>実験結果A&lt;/p>
+    &lt;img src="5.jpg" alt="実験結果A" width="400">
+    &lt;p>実験結果B&lt;/p>
+    &lt;img src="6.jpg" alt="実験結果B" width="400">
+    &lt;p>わかったこと&lt;/p>
+    &lt;img src="7.jpg" alt="わかったこと" width="400">
+    &lt;p>感想&lt;/p>
+    &lt;img src="8.jpg" alt="感想" width="400">
+    &lt;footer>
+    &lt;h4>このサイトはreCAPTCHAによって保護されており、&lt;br>Googleの&lt;a href = "https://policies.google.com/privacy">プライバシーポリシー&lt;/a>と&lt;a href = "https://policies.google.com/terms">利用規約&lt;/a>が適用されます。 &lt;/h4>&lt;br>
+    &lt;h5>This page by Clos JaslCreated on GitHub. &lt;br>Release date 2021/08/23&lt;br>
+    Author: Clos Jasl
+    &lt;/h5>
+    &lt;/footer>
+    &lt;/div>
+    &lt;div class="pc">&lt;br>&lt;br>
+    &lt;p id="chapter1">タイトル&lt;/p>
+    &lt;img src="1.jpg" alt="タイトル" width="250">
+    &lt;p>きっかけ・調べたいこと&lt;/p>
+    &lt;img src="2.jpg" alt="きっかけ・調べたいこと" width="250">
+    &lt;p>用意するもの・予想&lt;/p>
+    &lt;img src="3.jpg" alt="用意するもの・予想" width="250">
+    &lt;p>実験方法&lt;/p>
+    &lt;img src="4.jpg" alt="実験方法" width="250">
+    &lt;p>実験結果A&lt;/p>
+    &lt;img src="5.jpg" alt="実験結果A" width="250">
+    &lt;p>実験結果B&lt;/p>
+    &lt;img src="6.jpg" alt="実験結果B" width="250">
+    &lt;p>わかったこと&lt;/p>
+    &lt;img src="7.jpg" alt="わかったこと" width="250">
+    &lt;p>感想&lt;/p>
+    &lt;img src="8.jpg" alt="感想" width="250">
+    &lt;br>&lt;br>
+    &lt;footer>
+    &lt;h4>このサイトはreCAPTCHAによって保護されており、Googleの&lt;a href = "https://policies.google.com/privacy">プライバシーポリシー&lt;/a>と&lt;a href = "https://policies.google.com/terms">利用規約&lt;/a>が適用されます。 &lt;/h4>&lt;br>
+    &lt;h5>This page by Clos JaslCreated on GitHub. Release date 2021/08/23&lt;br>
+    Author: Clos Jasl
+    &lt;/h5>
+    &lt;br>
+    &lt;h1 id="p001">Page001&lt;/h1>
+    &lt;/footer>
+    &lt;/div>
+    &lt;body>
+                
+    &lt;script src="https://www.google.com/recaptcha/api.js?render=6Lf28UYcAAAAADsoAaDN9BAi0-EKgoT3NOykk2u-">&lt;/script>
+    &lt;script>
+    grecaptcha.ready(function () {
+    grecaptcha.execute("6Lf28UYcAAAAADsoAaDN9BAi0-EKgoT3NOykk2u-", {action: "sent"]).then(function(token) {
+    var recaptchaResponse = document.getElementById("recaptchaResponse");
+    recaptchaResponse.value = token;
+    });
+    });
+    &lt;/script>
+    &lt;/body>
+    &lt;/html>
     </pre>
     <br><a href="http://minibasepix.github.io/jiyuken/"><p>&lt;　Jiyuken Topへ戻る</p></a>
 </body>
