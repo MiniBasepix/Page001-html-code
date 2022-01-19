@@ -44,6 +44,57 @@ pre {
         font-size: 8px;
     }
 }
+
+html {
+    background-color: #2f2f2f;
+    color: white;
+    scrollbar-width: thin;
+    scrollbar-color: gray #f0f0f0;
+}
+
+pre {
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.line-gutter-backdrop {
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(240, 240, 240), rgb(60, 60, 60));
+    user-select: none;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    border-right: 1px solid rgb(187, 187, 187) !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    pre {
+        font-size: 0.5px;
+    }
+
+    h1 {
+        font-size: 8px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
 </style>
 </head>
 <body>
